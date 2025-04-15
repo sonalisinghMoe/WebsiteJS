@@ -81,6 +81,12 @@
  }
 
 
+ //Form details
+
+ function formInput(){
+    console.log("TestSS");
+ }
+
  //Integration with JS
         var moeDataCenter = "dc_1"; // Replace "DC" with the actual Data center value from the above table
         var moeAppID = "Q9C4IODV9GQPFYNW66O01DC7"; // Replace "WorkspaceID" available in the settings page of MoEngage Dashboard.
@@ -118,13 +124,20 @@
     <!-- Website -->
   
     <div class="container">
-        <p id="demo">Welcome to the Home page</p>
+        <p id="demo">Welcome to the Website</p>
         <button id="btn" onclick="myfun()">Click me</button>
         <button id="btn" onclick="SHPush()">self-handle Push</button>
 
 
     </div>
+    <div class="container">
+        <p id="demo">Sign Up</p>
+        <input type="text" placeholder="enter your name" required>
+      <input type="email" placeholder="enter your email" required>
+      <button type="submit" onclick="formInput()">Login</button>
 
+
+    </div>
         </body>
 
 
